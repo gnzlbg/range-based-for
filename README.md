@@ -1,6 +1,9 @@
 Document number:	NXXXX
+
 Date:	XXXX-XX-XX
+
 Project:	Programming Language C++, Evolution Working Group
+
 Reply-to:	Gonzalo Brito Gadeschi <gonzalobg88@gmail.com>
 
 # Range-Based For-Loops: allow iterators with different types
