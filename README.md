@@ -54,7 +54,7 @@ with
 
 ## III. Acknowledgements
 
-This change was proposed as is in [N4128](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html). All kudos go to Eric Niebler, Sean Parent, and Andrew Sutton.
+The standarese was stated as is in [N4128](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html). All kudos go to Eric Niebler, Sean Parent, and Andrew Sutton.
 
 ## IV. References
 
