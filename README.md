@@ -61,3 +61,18 @@ The standarese was stated as is in [N4128](http://www.open-std.org/jtc1/sc22/wg2
 Eric Niebler, Sean Parent, and Andrew Sutton, [N4128 - Ranges for the Standard Library, Revision 1](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html).
 
 Eric Niebler's [Range-v3: Range algorithms, views, and actions for the Standard Library documentation](https://ericniebler.github.io/range-v3/).
+
+## V. Appendix - `RANGE_FOR` macro
+
+```c++
+#define RANGES_FOR(VAR_DECL, ...)                                                               \
+    if(bool _range_v3_done = false) {}                                                          \
+    else for(auto && _range_v3_rng = (__VA_ARGS__); !_range_v3_done;)                           \
+        for(auto _range_v3_begin = ranges::begin(_range_v3_rng); !_range_v3_done;               \
+                _range_v3_done = true)                                                          \
+            for(auto _range_v3_end = ranges::end(_range_v3_rng);                                \
+                    !_range_v3_done && _range_v3_begin != _range_v3_end; ++_range_v3_begin)     \
+                if(!(_range_v3_done = true)) {}                                                 \
+                else for(VAR_DECL = *_range_v3_begin; _range_v3_done; _range_v3_done = false)   \
+    /**/
+```
