@@ -60,5 +60,4 @@ The standarese was stated as is in [N4128](http://www.open-std.org/jtc1/sc22/wg2
 
 Eric Niebler, Sean Parent, and Andrew Sutton, [N4128 - Ranges for the Standard Library, Revision 1](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html).
 
-Range-v3: Range algorithms, views, and actions for the Standard Library
 Eric Niebler's [Range-v3: Range algorithms, views, and actions for the Standard Library documentation](https://ericniebler.github.io/range-v3/).
