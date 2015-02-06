@@ -16,7 +16,7 @@ In the draft [N4128 - Ranges for the Standard Library, Revision 1](http://www.op
 - more powerful, and
 - easier to implement. 
  
-The current specification of range-based for loops does not accept begin and end iterators with different types. The users of these libraries have to resort to macros similar in spirit to `BOOST_FOREACH`. This does discourage users from experimenting with these libraries resulting in a situation that is not beneficial for the C++ community.
+The current specification of range-based for loops does not accept begin and end iterators with different types. The users of these libraries have to resort to macros similar in spirit to `BOOST_FOREACH` (see `RANGE_FOR` macro in the appendix). This does discourage users from experimenting with these libraries resulting in a situation that is not beneficial for the C++ community.
 
 In the standardese section below it is shown that removing this restriction is a minor non-breaking change. This change is the only core language change required to support the Iterables specified in [N4128](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html), see section [3.3.9](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html#range-based-for-loop-is-changed-to-accommodate-sentinels).
 
