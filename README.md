@@ -54,8 +54,11 @@ with
 
 ## III. Acknowledgements
 
-The standarese was stated as is in [N4128](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html). All kudos go to Eric Niebler, Sean Parent, and Andrew Sutton.
+The standarese was stated as is in [N4128](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html). All kudos go to Eric Niebler, Sean Parent, and Andrew Sutton for that proposal, and to Eric Niebler for the [range-v3 library](https://ericniebler.github.io/range-v3/).
 
 ## IV. References
 
 Eric Niebler, Sean Parent, and Andrew Sutton, [N4128 - Ranges for the Standard Library, Revision 1](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4128.html).
+
+Range-v3: Range algorithms, views, and actions for the Standard Library
+Eric Niebler's [Range-v3: Range algorithms, views, and actions for the Standard Library documentation](https://ericniebler.github.io/range-v3/).
